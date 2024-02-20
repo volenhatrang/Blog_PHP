@@ -632,7 +632,7 @@ form button {
     .nav_profile:hover > ul{
         visibility: visible ;
         opacity: 1;
-    }
+    } 
     /* Nav dropdown animation */
 
     @keyframes animateDropdown{

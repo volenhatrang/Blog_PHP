@@ -1,9 +1,6 @@
-
-
 <?php
     include 'partials/header.php';
 ?>
-
 
 <section class="dashboard">
     <div class="container dashboard_container">
@@ -16,7 +13,7 @@
                 </a></li>
             </ul>
             <ul>
-                <li><a href="index.php"><i class="fa-solid fa-newspaper"></i>
+                <li><a href="index.php" class="active"><i class="fa-solid fa-newspaper"></i>
                     <h5>Manage Post</h5>
                 </a></li>
             </ul>
@@ -26,9 +23,8 @@
                     <h5>Add User</h5>
                 </a></li>
             </ul>
-
             <ul>
-                <li><a href="manage_users.php"><i class="fa-solid fa-users" style="color: #ffffff;"></i></i></i>
+                <li><a href="manage_users.php" ><i class="fa-solid fa-users" style="color: #ffffff;"></i></i></i>
                     <h5>Manage User</h5>
                 </a></li>
             </ul>
@@ -38,7 +34,7 @@
                 </a></li>
             </ul>
             <ul>
-                <li><a href="manage_categories.php" class="active"><i class="fa-solid fa-layer-group"></i>
+                <li><a href="manage_categories.php" ><i class="fa-solid fa-layer-group"></i>
                     <h5>Manage Category</h5>
                 </a></li>
             </ul>
@@ -47,39 +43,43 @@
         </aside>
 
         <main>
-            <h2>Manage Categories</h2>
+            <h2>Manage Posts</h2>
             <table>
                 <thead>
                     <tr>
                         <th>Title</th>
+                        <th>Category</th>
                         <th>Edit</th>
                         <th>Delete</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Travel</td>
-                        <td><a href="edit_category.php" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.php" class="btn danger">Delete</a></td>
-                    </tr>
-                    <tr>
-                        <td>Art</td>
-                        <td><a href="edit_category.php" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.php" class="btn danger">Delete</a></td>
-                    </tr>
-                    <tr>
+                        <td>Henry Kissinger, who shaped world affairs under two presidents, dies at 100</td>
                         <td>Wild Life</td>
-                        <td><a href="edit_category.php" class="btn sm">Edit</a></td>
-                        <td><a href="delete-category.php" class="btn danger">Delete</a></td>
+                        <td><a href="edit_post.php" class="btn sm">Edit</a></td>
+                        <td><a href="delete-post.php" class="btn danger">Delete</a></td>
+                    </tr>
+                    <tr>
+                        <td>Henry Kissinger, who shaped world affairs under two presidents, dies at 100</td>
+                        <td>Wild Life</td>
+                        <td><a href="edit_post.php" class="btn sm">Edit</a></td>
+                        <td><a href="delete-post.php" class="btn danger">Delete</a></td>
+                    </tr>
+                    <tr>
+                        <td>Henry Kissinger, who shaped world affairs under two presidents, dies at 100</td>
+                        <td>Wild Life</td>
+                        <td><a href="edit_post.php" class="btn sm">Edit</a></td>
+                        <td><a href="delete-post.php" class="btn danger">Delete</a></td>
                     </tr>
                    
+
                 </tbody>
             </table>
         </main>
     </div>
 
 </section>
-
 
 <?php
     include '../partials/footer.php';
